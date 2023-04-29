@@ -25,6 +25,12 @@ const SideBar = () => {
     <div className="sidebarMenu">
       
       <ul className="sidebarList">
+      <Link to="/home" className="link">
+          <li className="sidebarListItem">
+            <PermIdentity className="sidebarIcon" />
+            <span className="home" > Home</span>
+          </li>
+        </Link>
         <Link to="/users" className="link">
           <li className="sidebarListItem">
             <PermIdentity className="sidebarIcon" />

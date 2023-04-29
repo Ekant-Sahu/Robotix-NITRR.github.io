@@ -1,34 +1,21 @@
-.userList{
-  flex: 4;
-    /* width: 80%;
-    margin: 10px auto; */
-    /* display: flex;
-    align-items: center;
-    left: 10%;
-    height: 100%; */
-}
-.userListUser {
-    display: flex;
-    align-items: center;
-  }
-  .userListImg {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-  }
-  .userListEdit{
-    border: none;
-    border-radius: 10px;
-    padding: 5px 10px;
-    background-color: #3bb077;
-    color: white;
-    cursor: pointer;
-    margin-right: 20px;
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
 }
 
-.userListDelete{
-    color: red;
-    cursor: pointer;
-}    
+.userList{
+  width: 100%;
+}
+
+table, th, td {
+  border: solid 1px #000;
+  padding: 10px;
+}
+
+table {
+    border-collapse:collapse;
+    caption-side:bottom;
+    width: 90%;
+}

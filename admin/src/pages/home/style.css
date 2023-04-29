@@ -3,5 +3,10 @@
 }
 .homeWidget{
     display: flex;
-    margin:20px;
+    /* margin:20px; */
+}
+
+*{
+    margin-top: 7px  ;
+    margin-bottom: 7px;
 }
